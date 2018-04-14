@@ -1,0 +1,270 @@
+2018-03-20 at 10:26:42 CST INFO  org.springframework.boot.StartupInfoLogger 48 logStarting - Starting Application on DESKTOP-37B0J72 with PID 7336 (C:\Users\BA\Downloads\bootBootstrap\bootBootstrap\target\classes started by BA in C:\JavaProject\springbootMybatis)
+2018-03-20 at 10:26:42 CST INFO  org.springframework.boot.SpringApplication 662 logStartupProfileInfo - No active profile set, falling back to default profiles: default
+2018-03-20 at 10:26:42 CST INFO  org.hibernate.validator.internal.util.Version 30 <clinit> - HV000001: Hibernate Validator 5.2.5.Final
+2018-03-20 at 10:26:43 CST INFO  org.springframework.context.support.AbstractApplicationContext 583 prepareRefresh - Refreshing org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@611f8234: startup date [Tue Mar 20 10:26:43 CST 2018]; root of context hierarchy
+2018-03-20 at 10:26:46 CST INFO  org.springframework.boot.context.embedded.tomcat.TomcatEmbeddedServletContainer 89 initialize - Tomcat initialized with port(s): 8082 (http)
+2018-03-20 at 10:26:46 CST INFO  org.apache.juli.logging.DirectJDKLog 179 log - Starting service [Tomcat]
+2018-03-20 at 10:26:46 CST INFO  org.apache.juli.logging.DirectJDKLog 179 log - Starting Servlet Engine: Apache Tomcat/8.5.15
+2018-03-20 at 10:26:46 CST INFO  org.apache.juli.logging.DirectJDKLog 179 log - Initializing Spring embedded WebApplicationContext
+2018-03-20 at 10:26:46 CST INFO  org.springframework.boot.context.embedded.EmbeddedWebApplicationContext 276 prepareEmbeddedWebApplicationContext - Root WebApplicationContext: initialization completed in 3112 ms
+2018-03-20 at 10:26:46 CST INFO  org.springframework.boot.web.servlet.ServletRegistrationBean 190 onStartup - Mapping servlet: 'dispatcherServlet' to [/]
+2018-03-20 at 10:26:46 CST INFO  org.springframework.boot.web.servlet.AbstractFilterRegistrationBean 258 configure - Mapping filter: 'characterEncodingFilter' to: [/*]
+2018-03-20 at 10:26:46 CST INFO  org.springframework.boot.web.servlet.AbstractFilterRegistrationBean 258 configure - Mapping filter: 'hiddenHttpMethodFilter' to: [/*]
+2018-03-20 at 10:26:46 CST INFO  org.springframework.boot.web.servlet.AbstractFilterRegistrationBean 258 configure - Mapping filter: 'httpPutFormContentFilter' to: [/*]
+2018-03-20 at 10:26:46 CST INFO  org.springframework.boot.web.servlet.AbstractFilterRegistrationBean 258 configure - Mapping filter: 'requestContextFilter' to: [/*]
+2018-03-20 at 10:26:47 CST INFO  org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter 534 initControllerAdviceCache - Looking for @ControllerAdvice: org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@611f8234: startup date [Tue Mar 20 10:26:43 CST 2018]; root of context hierarchy
+2018-03-20 at 10:26:47 CST INFO  org.springframework.web.servlet.handler.AbstractHandlerMethodMapping$MappingRegistry 543 register - Mapped "{[/]}" onto public java.lang.String com.zanghan.application.controller.LoginController.login()
+2018-03-20 at 10:26:47 CST INFO  org.springframework.web.servlet.handler.AbstractHandlerMethodMapping$MappingRegistry 543 register - Mapped "{[/error]}" onto public org.springframework.http.ResponseEntity<java.util.Map<java.lang.String, java.lang.Object>> org.springframework.boot.autoconfigure.web.BasicErrorController.error(javax.servlet.http.HttpServletRequest)
+2018-03-20 at 10:26:47 CST INFO  org.springframework.web.servlet.handler.AbstractHandlerMethodMapping$MappingRegistry 543 register - Mapped "{[/error],produces=[text/html]}" onto public org.springframework.web.servlet.ModelAndView org.springframework.boot.autoconfigure.web.BasicErrorController.errorHtml(javax.servlet.http.HttpServletRequest,javax.servlet.http.HttpServletResponse)
+2018-03-20 at 10:26:47 CST INFO  org.springframework.web.servlet.handler.AbstractUrlHandlerMapping 362 registerHandler - Mapped URL path [/webjars/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2018-03-20 at 10:26:47 CST INFO  org.springframework.web.servlet.handler.AbstractUrlHandlerMapping 362 registerHandler - Mapped URL path [/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2018-03-20 at 10:26:47 CST INFO  org.springframework.web.servlet.handler.AbstractUrlHandlerMapping 362 registerHandler - Mapped URL path [/**/favicon.ico] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2018-03-20 at 10:26:49 CST INFO  org.springframework.jmx.export.MBeanExporter 431 afterSingletonsInstantiated - Registering beans for JMX exposure on startup
+2018-03-20 at 10:26:49 CST INFO  org.apache.juli.logging.DirectJDKLog 179 log - Initializing ProtocolHandler ["http-nio-8082"]
+2018-03-20 at 10:26:49 CST INFO  org.apache.juli.logging.DirectJDKLog 179 log - Starting ProtocolHandler ["http-nio-8082"]
+2018-03-20 at 10:26:49 CST INFO  org.apache.juli.logging.DirectJDKLog 179 log - Using a shared selector for servlet write/read
+2018-03-20 at 10:26:49 CST INFO  org.springframework.boot.context.embedded.tomcat.TomcatEmbeddedServletContainer 198 start - Tomcat started on port(s): 8082 (http)
+2018-03-20 at 10:26:49 CST INFO  org.springframework.boot.StartupInfoLogger 57 logStarted - Started Application in 8.323 seconds (JVM running for 11.04)
+2018-03-20 at 10:27:16 CST INFO  org.apache.juli.logging.DirectJDKLog 179 log - Initializing Spring FrameworkServlet 'dispatcherServlet'
+2018-03-20 at 10:27:16 CST INFO  org.springframework.web.servlet.FrameworkServlet 489 initServletBean - FrameworkServlet 'dispatcherServlet': initialization started
+2018-03-20 at 10:27:16 CST INFO  org.springframework.web.servlet.FrameworkServlet 508 initServletBean - FrameworkServlet 'dispatcherServlet': initialization completed in 36 ms
+2018-03-20 at 10:27:16 CST INFO  org.thymeleaf.TemplateEngine 825 initialize - [THYMELEAF] INITIALIZING TEMPLATE ENGINE
+2018-03-20 at 10:27:17 CST INFO  org.thymeleaf.templateresolver.AbstractTemplateResolver 99 initialize - [THYMELEAF] INITIALIZING TEMPLATE RESOLVER: org.thymeleaf.spring4.templateresolver.SpringResourceTemplateResolver
+2018-03-20 at 10:27:17 CST INFO  org.thymeleaf.templateresolver.AbstractTemplateResolver 110 initialize - [THYMELEAF] TEMPLATE RESOLVER INITIALIZED OK
+2018-03-20 at 10:27:17 CST INFO  org.thymeleaf.messageresolver.AbstractMessageResolver 72 initialize - [THYMELEAF] INITIALIZING MESSAGE RESOLVER: org.thymeleaf.spring4.messageresolver.SpringMessageResolver
+2018-03-20 at 10:27:17 CST INFO  org.thymeleaf.messageresolver.AbstractMessageResolver 78 initialize - [THYMELEAF] MESSAGE RESOLVER INITIALIZED OK
+2018-03-20 at 10:27:17 CST INFO  org.thymeleaf.ConfigurationPrinterHelper 123 printConfiguration - [THYMELEAF] TEMPLATE ENGINE CONFIGURATION:
+[THYMELEAF] * Cache Factory implementation: org.thymeleaf.cache.StandardCacheManager
+[THYMELEAF] * Template modes:
+[THYMELEAF]     * XHTML
+[THYMELEAF]     * LEGACYHTML5
+[THYMELEAF]     * VALIDXHTML
+[THYMELEAF]     * HTML5
+[THYMELEAF]     * VALIDXML
+[THYMELEAF]     * XML
+[THYMELEAF] * Template resolvers (in order):
+[THYMELEAF]     * org.thymeleaf.spring4.templateresolver.SpringResourceTemplateResolver
+[THYMELEAF] * Message resolvers (in order):
+[THYMELEAF]     * org.thymeleaf.spring4.messageresolver.SpringMessageResolver
+[THYMELEAF] * Dialect [1 of 2]: org.thymeleaf.spring4.dialect.SpringStandardDialect
+[THYMELEAF]     * Prefix: "th"
+[THYMELEAF] * Dialect [2 of 2]: nz.net.ultraq.thymeleaf.LayoutDialect
+[THYMELEAF]     * Prefix: "layout"
+[THYMELEAF] TEMPLATE ENGINE CONFIGURED OK
+2018-03-20 at 10:27:17 CST INFO  org.thymeleaf.TemplateEngine 838 initialize - [THYMELEAF] TEMPLATE ENGINE INITIALIZED
+2018-03-20 at 11:04:16 CST INFO  org.springframework.boot.StartupInfoLogger 48 logStarting - Starting Application on DESKTOP-37B0J72 with PID 9644 (C:\Users\BA\Downloads\bootBootstrap\bootBootstrap\target\classes started by BA in C:\JavaProject\springbootMybatis)
+2018-03-20 at 11:04:16 CST INFO  org.springframework.boot.SpringApplication 662 logStartupProfileInfo - No active profile set, falling back to default profiles: default
+2018-03-20 at 11:04:16 CST INFO  org.hibernate.validator.internal.util.Version 30 <clinit> - HV000001: Hibernate Validator 5.2.5.Final
+2018-03-20 at 11:04:16 CST INFO  org.springframework.context.support.AbstractApplicationContext 583 prepareRefresh - Refreshing org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@7bb3a9fe: startup date [Tue Mar 20 11:04:16 CST 2018]; root of context hierarchy
+2018-03-20 at 11:04:19 CST INFO  org.springframework.boot.context.embedded.tomcat.TomcatEmbeddedServletContainer 89 initialize - Tomcat initialized with port(s): 8082 (http)
+2018-03-20 at 11:04:19 CST INFO  org.apache.juli.logging.DirectJDKLog 179 log - Starting service [Tomcat]
+2018-03-20 at 11:04:19 CST INFO  org.apache.juli.logging.DirectJDKLog 179 log - Starting Servlet Engine: Apache Tomcat/8.5.15
+2018-03-20 at 11:04:19 CST INFO  org.apache.juli.logging.DirectJDKLog 179 log - Initializing Spring embedded WebApplicationContext
+2018-03-20 at 11:04:19 CST INFO  org.springframework.boot.context.embedded.EmbeddedWebApplicationContext 276 prepareEmbeddedWebApplicationContext - Root WebApplicationContext: initialization completed in 2807 ms
+2018-03-20 at 11:04:20 CST INFO  org.springframework.boot.web.servlet.ServletRegistrationBean 190 onStartup - Mapping servlet: 'dispatcherServlet' to [/]
+2018-03-20 at 11:04:20 CST INFO  org.springframework.boot.web.servlet.AbstractFilterRegistrationBean 258 configure - Mapping filter: 'characterEncodingFilter' to: [/*]
+2018-03-20 at 11:04:20 CST INFO  org.springframework.boot.web.servlet.AbstractFilterRegistrationBean 258 configure - Mapping filter: 'hiddenHttpMethodFilter' to: [/*]
+2018-03-20 at 11:04:20 CST INFO  org.springframework.boot.web.servlet.AbstractFilterRegistrationBean 258 configure - Mapping filter: 'httpPutFormContentFilter' to: [/*]
+2018-03-20 at 11:04:20 CST INFO  org.springframework.boot.web.servlet.AbstractFilterRegistrationBean 258 configure - Mapping filter: 'requestContextFilter' to: [/*]
+2018-03-20 at 11:04:20 CST INFO  org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter 534 initControllerAdviceCache - Looking for @ControllerAdvice: org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@7bb3a9fe: startup date [Tue Mar 20 11:04:16 CST 2018]; root of context hierarchy
+2018-03-20 at 11:04:20 CST INFO  org.springframework.web.servlet.handler.AbstractHandlerMethodMapping$MappingRegistry 543 register - Mapped "{[/]}" onto public java.lang.String com.zanghan.application.controller.LoginController.login()
+2018-03-20 at 11:04:20 CST INFO  org.springframework.web.servlet.handler.AbstractHandlerMethodMapping$MappingRegistry 543 register - Mapped "{[/error]}" onto public org.springframework.http.ResponseEntity<java.util.Map<java.lang.String, java.lang.Object>> org.springframework.boot.autoconfigure.web.BasicErrorController.error(javax.servlet.http.HttpServletRequest)
+2018-03-20 at 11:04:20 CST INFO  org.springframework.web.servlet.handler.AbstractHandlerMethodMapping$MappingRegistry 543 register - Mapped "{[/error],produces=[text/html]}" onto public org.springframework.web.servlet.ModelAndView org.springframework.boot.autoconfigure.web.BasicErrorController.errorHtml(javax.servlet.http.HttpServletRequest,javax.servlet.http.HttpServletResponse)
+2018-03-20 at 11:04:20 CST INFO  org.springframework.web.servlet.handler.AbstractUrlHandlerMapping 362 registerHandler - Mapped URL path [/webjars/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2018-03-20 at 11:04:20 CST INFO  org.springframework.web.servlet.handler.AbstractUrlHandlerMapping 362 registerHandler - Mapped URL path [/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2018-03-20 at 11:04:21 CST INFO  org.springframework.web.servlet.handler.AbstractUrlHandlerMapping 362 registerHandler - Mapped URL path [/**/favicon.ico] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2018-03-20 at 11:04:22 CST INFO  org.springframework.jmx.export.MBeanExporter 431 afterSingletonsInstantiated - Registering beans for JMX exposure on startup
+2018-03-20 at 11:04:22 CST INFO  org.apache.juli.logging.DirectJDKLog 179 log - Initializing ProtocolHandler ["http-nio-8082"]
+2018-03-20 at 11:04:22 CST INFO  org.apache.juli.logging.DirectJDKLog 179 log - Starting ProtocolHandler ["http-nio-8082"]
+2018-03-20 at 11:04:22 CST INFO  org.apache.juli.logging.DirectJDKLog 179 log - Using a shared selector for servlet write/read
+2018-03-20 at 11:04:22 CST INFO  org.springframework.boot.context.embedded.tomcat.TomcatEmbeddedServletContainer 198 start - Tomcat started on port(s): 8082 (http)
+2018-03-20 at 11:04:22 CST INFO  org.springframework.boot.StartupInfoLogger 57 logStarted - Started Application in 7.276 seconds (JVM running for 9.48)
+2018-03-20 at 11:04:41 CST INFO  org.apache.juli.logging.DirectJDKLog 179 log - Initializing Spring FrameworkServlet 'dispatcherServlet'
+2018-03-20 at 11:04:41 CST INFO  org.springframework.web.servlet.FrameworkServlet 489 initServletBean - FrameworkServlet 'dispatcherServlet': initialization started
+2018-03-20 at 11:04:41 CST INFO  org.springframework.web.servlet.FrameworkServlet 508 initServletBean - FrameworkServlet 'dispatcherServlet': initialization completed in 48 ms
+2018-03-20 at 11:04:41 CST INFO  org.thymeleaf.TemplateEngine 825 initialize - [THYMELEAF] INITIALIZING TEMPLATE ENGINE
+2018-03-20 at 11:04:42 CST INFO  org.thymeleaf.templateresolver.AbstractTemplateResolver 99 initialize - [THYMELEAF] INITIALIZING TEMPLATE RESOLVER: org.thymeleaf.spring4.templateresolver.SpringResourceTemplateResolver
+2018-03-20 at 11:04:42 CST INFO  org.thymeleaf.templateresolver.AbstractTemplateResolver 110 initialize - [THYMELEAF] TEMPLATE RESOLVER INITIALIZED OK
+2018-03-20 at 11:04:42 CST INFO  org.thymeleaf.messageresolver.AbstractMessageResolver 72 initialize - [THYMELEAF] INITIALIZING MESSAGE RESOLVER: org.thymeleaf.spring4.messageresolver.SpringMessageResolver
+2018-03-20 at 11:04:42 CST INFO  org.thymeleaf.messageresolver.AbstractMessageResolver 78 initialize - [THYMELEAF] MESSAGE RESOLVER INITIALIZED OK
+2018-03-20 at 11:04:42 CST INFO  org.thymeleaf.ConfigurationPrinterHelper 123 printConfiguration - [THYMELEAF] TEMPLATE ENGINE CONFIGURATION:
+[THYMELEAF] * Cache Factory implementation: org.thymeleaf.cache.StandardCacheManager
+[THYMELEAF] * Template modes:
+[THYMELEAF]     * VALIDXML
+[THYMELEAF]     * LEGACYHTML5
+[THYMELEAF]     * XHTML
+[THYMELEAF]     * HTML5
+[THYMELEAF]     * VALIDXHTML
+[THYMELEAF]     * XML
+[THYMELEAF] * Template resolvers (in order):
+[THYMELEAF]     * org.thymeleaf.spring4.templateresolver.SpringResourceTemplateResolver
+[THYMELEAF] * Message resolvers (in order):
+[THYMELEAF]     * org.thymeleaf.spring4.messageresolver.SpringMessageResolver
+[THYMELEAF] * Dialect [1 of 2]: org.thymeleaf.spring4.dialect.SpringStandardDialect
+[THYMELEAF]     * Prefix: "th"
+[THYMELEAF] * Dialect [2 of 2]: nz.net.ultraq.thymeleaf.LayoutDialect
+[THYMELEAF]     * Prefix: "layout"
+[THYMELEAF] TEMPLATE ENGINE CONFIGURED OK
+2018-03-20 at 11:04:42 CST INFO  org.thymeleaf.TemplateEngine 838 initialize - [THYMELEAF] TEMPLATE ENGINE INITIALIZED
+2018-03-20 at 11:07:07 CST INFO  org.springframework.boot.StartupInfoLogger 48 logStarting - Starting Application on DESKTOP-37B0J72 with PID 3472 (C:\Users\BA\Downloads\bootBootstrap\bootBootstrap\target\classes started by BA in C:\JavaProject\springbootMybatis)
+2018-03-20 at 11:07:07 CST INFO  org.springframework.boot.SpringApplication 662 logStartupProfileInfo - No active profile set, falling back to default profiles: default
+2018-03-20 at 11:07:07 CST INFO  org.hibernate.validator.internal.util.Version 30 <clinit> - HV000001: Hibernate Validator 5.2.5.Final
+2018-03-20 at 11:07:08 CST INFO  org.springframework.context.support.AbstractApplicationContext 583 prepareRefresh - Refreshing org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@611f8234: startup date [Tue Mar 20 11:07:08 CST 2018]; root of context hierarchy
+2018-03-20 at 11:07:11 CST INFO  org.springframework.boot.context.embedded.tomcat.TomcatEmbeddedServletContainer 89 initialize - Tomcat initialized with port(s): 8082 (http)
+2018-03-20 at 11:07:11 CST INFO  org.apache.juli.logging.DirectJDKLog 179 log - Starting service [Tomcat]
+2018-03-20 at 11:07:11 CST INFO  org.apache.juli.logging.DirectJDKLog 179 log - Starting Servlet Engine: Apache Tomcat/8.5.15
+2018-03-20 at 11:07:11 CST INFO  org.apache.juli.logging.DirectJDKLog 179 log - Initializing Spring embedded WebApplicationContext
+2018-03-20 at 11:07:11 CST INFO  org.springframework.boot.context.embedded.EmbeddedWebApplicationContext 276 prepareEmbeddedWebApplicationContext - Root WebApplicationContext: initialization completed in 3371 ms
+2018-03-20 at 11:07:11 CST INFO  org.springframework.boot.web.servlet.ServletRegistrationBean 190 onStartup - Mapping servlet: 'dispatcherServlet' to [/]
+2018-03-20 at 11:07:11 CST INFO  org.springframework.boot.web.servlet.AbstractFilterRegistrationBean 258 configure - Mapping filter: 'characterEncodingFilter' to: [/*]
+2018-03-20 at 11:07:11 CST INFO  org.springframework.boot.web.servlet.AbstractFilterRegistrationBean 258 configure - Mapping filter: 'hiddenHttpMethodFilter' to: [/*]
+2018-03-20 at 11:07:11 CST INFO  org.springframework.boot.web.servlet.AbstractFilterRegistrationBean 258 configure - Mapping filter: 'httpPutFormContentFilter' to: [/*]
+2018-03-20 at 11:07:11 CST INFO  org.springframework.boot.web.servlet.AbstractFilterRegistrationBean 258 configure - Mapping filter: 'requestContextFilter' to: [/*]
+2018-03-20 at 11:07:12 CST INFO  org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter 534 initControllerAdviceCache - Looking for @ControllerAdvice: org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@611f8234: startup date [Tue Mar 20 11:07:08 CST 2018]; root of context hierarchy
+2018-03-20 at 11:07:12 CST INFO  org.springframework.web.servlet.handler.AbstractHandlerMethodMapping$MappingRegistry 543 register - Mapped "{[/]}" onto public java.lang.String com.zanghan.application.controller.LoginController.login()
+2018-03-20 at 11:07:12 CST INFO  org.springframework.web.servlet.handler.AbstractHandlerMethodMapping$MappingRegistry 543 register - Mapped "{[/error]}" onto public org.springframework.http.ResponseEntity<java.util.Map<java.lang.String, java.lang.Object>> org.springframework.boot.autoconfigure.web.BasicErrorController.error(javax.servlet.http.HttpServletRequest)
+2018-03-20 at 11:07:12 CST INFO  org.springframework.web.servlet.handler.AbstractHandlerMethodMapping$MappingRegistry 543 register - Mapped "{[/error],produces=[text/html]}" onto public org.springframework.web.servlet.ModelAndView org.springframework.boot.autoconfigure.web.BasicErrorController.errorHtml(javax.servlet.http.HttpServletRequest,javax.servlet.http.HttpServletResponse)
+2018-03-20 at 11:07:12 CST INFO  org.springframework.web.servlet.handler.AbstractUrlHandlerMapping 362 registerHandler - Mapped URL path [/webjars/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2018-03-20 at 11:07:12 CST INFO  org.springframework.web.servlet.handler.AbstractUrlHandlerMapping 362 registerHandler - Mapped URL path [/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2018-03-20 at 11:07:12 CST INFO  org.springframework.web.servlet.handler.AbstractUrlHandlerMapping 362 registerHandler - Mapped URL path [/**/favicon.ico] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2018-03-20 at 11:07:14 CST INFO  org.springframework.jmx.export.MBeanExporter 431 afterSingletonsInstantiated - Registering beans for JMX exposure on startup
+2018-03-20 at 11:07:14 CST INFO  org.apache.juli.logging.DirectJDKLog 179 log - Initializing ProtocolHandler ["http-nio-8082"]
+2018-03-20 at 11:07:14 CST INFO  org.apache.juli.logging.DirectJDKLog 179 log - Starting ProtocolHandler ["http-nio-8082"]
+2018-03-20 at 11:07:14 CST INFO  org.apache.juli.logging.DirectJDKLog 179 log - Using a shared selector for servlet write/read
+2018-03-20 at 11:07:14 CST INFO  org.springframework.boot.context.embedded.tomcat.TomcatEmbeddedServletContainer 198 start - Tomcat started on port(s): 8082 (http)
+2018-03-20 at 11:07:14 CST INFO  org.springframework.boot.StartupInfoLogger 57 logStarted - Started Application in 8.017 seconds (JVM running for 10.157)
+2018-03-20 at 11:07:24 CST INFO  org.apache.juli.logging.DirectJDKLog 179 log - Initializing Spring FrameworkServlet 'dispatcherServlet'
+2018-03-20 at 11:07:24 CST INFO  org.springframework.web.servlet.FrameworkServlet 489 initServletBean - FrameworkServlet 'dispatcherServlet': initialization started
+2018-03-20 at 11:07:24 CST INFO  org.springframework.web.servlet.FrameworkServlet 508 initServletBean - FrameworkServlet 'dispatcherServlet': initialization completed in 29 ms
+2018-03-20 at 11:07:24 CST INFO  org.thymeleaf.TemplateEngine 825 initialize - [THYMELEAF] INITIALIZING TEMPLATE ENGINE
+2018-03-20 at 11:07:24 CST INFO  org.thymeleaf.templateresolver.AbstractTemplateResolver 99 initialize - [THYMELEAF] INITIALIZING TEMPLATE RESOLVER: org.thymeleaf.spring4.templateresolver.SpringResourceTemplateResolver
+2018-03-20 at 11:07:24 CST INFO  org.thymeleaf.templateresolver.AbstractTemplateResolver 110 initialize - [THYMELEAF] TEMPLATE RESOLVER INITIALIZED OK
+2018-03-20 at 11:07:24 CST INFO  org.thymeleaf.messageresolver.AbstractMessageResolver 72 initialize - [THYMELEAF] INITIALIZING MESSAGE RESOLVER: org.thymeleaf.spring4.messageresolver.SpringMessageResolver
+2018-03-20 at 11:07:24 CST INFO  org.thymeleaf.messageresolver.AbstractMessageResolver 78 initialize - [THYMELEAF] MESSAGE RESOLVER INITIALIZED OK
+2018-03-20 at 11:07:24 CST INFO  org.thymeleaf.ConfigurationPrinterHelper 123 printConfiguration - [THYMELEAF] TEMPLATE ENGINE CONFIGURATION:
+[THYMELEAF] * Cache Factory implementation: org.thymeleaf.cache.StandardCacheManager
+[THYMELEAF] * Template modes:
+[THYMELEAF]     * LEGACYHTML5
+[THYMELEAF]     * VALIDXML
+[THYMELEAF]     * XHTML
+[THYMELEAF]     * HTML5
+[THYMELEAF]     * XML
+[THYMELEAF]     * VALIDXHTML
+[THYMELEAF] * Template resolvers (in order):
+[THYMELEAF]     * org.thymeleaf.spring4.templateresolver.SpringResourceTemplateResolver
+[THYMELEAF] * Message resolvers (in order):
+[THYMELEAF]     * org.thymeleaf.spring4.messageresolver.SpringMessageResolver
+[THYMELEAF] * Dialect [1 of 2]: org.thymeleaf.spring4.dialect.SpringStandardDialect
+[THYMELEAF]     * Prefix: "th"
+[THYMELEAF] * Dialect [2 of 2]: nz.net.ultraq.thymeleaf.LayoutDialect
+[THYMELEAF]     * Prefix: "layout"
+[THYMELEAF] TEMPLATE ENGINE CONFIGURED OK
+2018-03-20 at 11:07:24 CST INFO  org.thymeleaf.TemplateEngine 838 initialize - [THYMELEAF] TEMPLATE ENGINE INITIALIZED
+2018-03-20 at 11:08:03 CST INFO  org.springframework.boot.StartupInfoLogger 48 logStarting - Starting Application on DESKTOP-37B0J72 with PID 14016 (C:\Users\BA\Downloads\bootBootstrap\bootBootstrap\target\classes started by BA in C:\JavaProject\springbootMybatis)
+2018-03-20 at 11:08:03 CST INFO  org.springframework.boot.SpringApplication 662 logStartupProfileInfo - No active profile set, falling back to default profiles: default
+2018-03-20 at 11:08:04 CST INFO  org.hibernate.validator.internal.util.Version 30 <clinit> - HV000001: Hibernate Validator 5.2.5.Final
+2018-03-20 at 11:08:04 CST INFO  org.springframework.context.support.AbstractApplicationContext 583 prepareRefresh - Refreshing org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@611f8234: startup date [Tue Mar 20 11:08:04 CST 2018]; root of context hierarchy
+2018-03-20 at 11:08:07 CST INFO  org.springframework.boot.context.embedded.tomcat.TomcatEmbeddedServletContainer 89 initialize - Tomcat initialized with port(s): 8082 (http)
+2018-03-20 at 11:08:07 CST INFO  org.apache.juli.logging.DirectJDKLog 179 log - Starting service [Tomcat]
+2018-03-20 at 11:08:07 CST INFO  org.apache.juli.logging.DirectJDKLog 179 log - Starting Servlet Engine: Apache Tomcat/8.5.15
+2018-03-20 at 11:08:07 CST INFO  org.apache.juli.logging.DirectJDKLog 179 log - Initializing Spring embedded WebApplicationContext
+2018-03-20 at 11:08:07 CST INFO  org.springframework.boot.context.embedded.EmbeddedWebApplicationContext 276 prepareEmbeddedWebApplicationContext - Root WebApplicationContext: initialization completed in 3059 ms
+2018-03-20 at 11:08:08 CST INFO  org.springframework.boot.web.servlet.ServletRegistrationBean 190 onStartup - Mapping servlet: 'dispatcherServlet' to [/]
+2018-03-20 at 11:08:08 CST INFO  org.springframework.boot.web.servlet.AbstractFilterRegistrationBean 258 configure - Mapping filter: 'characterEncodingFilter' to: [/*]
+2018-03-20 at 11:08:08 CST INFO  org.springframework.boot.web.servlet.AbstractFilterRegistrationBean 258 configure - Mapping filter: 'hiddenHttpMethodFilter' to: [/*]
+2018-03-20 at 11:08:08 CST INFO  org.springframework.boot.web.servlet.AbstractFilterRegistrationBean 258 configure - Mapping filter: 'httpPutFormContentFilter' to: [/*]
+2018-03-20 at 11:08:08 CST INFO  org.springframework.boot.web.servlet.AbstractFilterRegistrationBean 258 configure - Mapping filter: 'requestContextFilter' to: [/*]
+2018-03-20 at 11:08:08 CST INFO  org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter 534 initControllerAdviceCache - Looking for @ControllerAdvice: org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@611f8234: startup date [Tue Mar 20 11:08:04 CST 2018]; root of context hierarchy
+2018-03-20 at 11:08:08 CST INFO  org.springframework.web.servlet.handler.AbstractHandlerMethodMapping$MappingRegistry 543 register - Mapped "{[/]}" onto public java.lang.String com.zanghan.application.controller.LoginController.login()
+2018-03-20 at 11:08:08 CST INFO  org.springframework.web.servlet.handler.AbstractHandlerMethodMapping$MappingRegistry 543 register - Mapped "{[/error]}" onto public org.springframework.http.ResponseEntity<java.util.Map<java.lang.String, java.lang.Object>> org.springframework.boot.autoconfigure.web.BasicErrorController.error(javax.servlet.http.HttpServletRequest)
+2018-03-20 at 11:08:08 CST INFO  org.springframework.web.servlet.handler.AbstractHandlerMethodMapping$MappingRegistry 543 register - Mapped "{[/error],produces=[text/html]}" onto public org.springframework.web.servlet.ModelAndView org.springframework.boot.autoconfigure.web.BasicErrorController.errorHtml(javax.servlet.http.HttpServletRequest,javax.servlet.http.HttpServletResponse)
+2018-03-20 at 11:08:08 CST INFO  org.springframework.web.servlet.handler.AbstractUrlHandlerMapping 362 registerHandler - Mapped URL path [/webjars/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2018-03-20 at 11:08:08 CST INFO  org.springframework.web.servlet.handler.AbstractUrlHandlerMapping 362 registerHandler - Mapped URL path [/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2018-03-20 at 11:08:08 CST INFO  org.springframework.web.servlet.handler.AbstractUrlHandlerMapping 362 registerHandler - Mapped URL path [/**/favicon.ico] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2018-03-20 at 11:08:10 CST INFO  org.springframework.jmx.export.MBeanExporter 431 afterSingletonsInstantiated - Registering beans for JMX exposure on startup
+2018-03-20 at 11:08:10 CST INFO  org.apache.juli.logging.DirectJDKLog 179 log - Initializing ProtocolHandler ["http-nio-8082"]
+2018-03-20 at 11:08:10 CST INFO  org.apache.juli.logging.DirectJDKLog 179 log - Starting ProtocolHandler ["http-nio-8082"]
+2018-03-20 at 11:08:10 CST INFO  org.apache.juli.logging.DirectJDKLog 179 log - Using a shared selector for servlet write/read
+2018-03-20 at 11:08:10 CST INFO  org.springframework.boot.context.embedded.tomcat.TomcatEmbeddedServletContainer 198 start - Tomcat started on port(s): 8082 (http)
+2018-03-20 at 11:08:10 CST INFO  org.springframework.boot.StartupInfoLogger 57 logStarted - Started Application in 7.409 seconds (JVM running for 9.552)
+2018-03-20 at 11:08:16 CST INFO  org.apache.juli.logging.DirectJDKLog 179 log - Initializing Spring FrameworkServlet 'dispatcherServlet'
+2018-03-20 at 11:08:16 CST INFO  org.springframework.web.servlet.FrameworkServlet 489 initServletBean - FrameworkServlet 'dispatcherServlet': initialization started
+2018-03-20 at 11:08:16 CST INFO  org.springframework.web.servlet.FrameworkServlet 508 initServletBean - FrameworkServlet 'dispatcherServlet': initialization completed in 36 ms
+2018-03-20 at 11:08:16 CST INFO  org.thymeleaf.TemplateEngine 825 initialize - [THYMELEAF] INITIALIZING TEMPLATE ENGINE
+2018-03-20 at 11:08:16 CST INFO  org.thymeleaf.templateresolver.AbstractTemplateResolver 99 initialize - [THYMELEAF] INITIALIZING TEMPLATE RESOLVER: org.thymeleaf.spring4.templateresolver.SpringResourceTemplateResolver
+2018-03-20 at 11:08:16 CST INFO  org.thymeleaf.templateresolver.AbstractTemplateResolver 110 initialize - [THYMELEAF] TEMPLATE RESOLVER INITIALIZED OK
+2018-03-20 at 11:08:16 CST INFO  org.thymeleaf.messageresolver.AbstractMessageResolver 72 initialize - [THYMELEAF] INITIALIZING MESSAGE RESOLVER: org.thymeleaf.spring4.messageresolver.SpringMessageResolver
+2018-03-20 at 11:08:16 CST INFO  org.thymeleaf.messageresolver.AbstractMessageResolver 78 initialize - [THYMELEAF] MESSAGE RESOLVER INITIALIZED OK
+2018-03-20 at 11:08:16 CST INFO  org.thymeleaf.ConfigurationPrinterHelper 123 printConfiguration - [THYMELEAF] TEMPLATE ENGINE CONFIGURATION:
+[THYMELEAF] * Cache Factory implementation: org.thymeleaf.cache.StandardCacheManager
+[THYMELEAF] * Template modes:
+[THYMELEAF]     * LEGACYHTML5
+[THYMELEAF]     * VALIDXHTML
+[THYMELEAF]     * XHTML
+[THYMELEAF]     * VALIDXML
+[THYMELEAF]     * HTML5
+[THYMELEAF]     * XML
+[THYMELEAF] * Template resolvers (in order):
+[THYMELEAF]     * org.thymeleaf.spring4.templateresolver.SpringResourceTemplateResolver
+[THYMELEAF] * Message resolvers (in order):
+[THYMELEAF]     * org.thymeleaf.spring4.messageresolver.SpringMessageResolver
+[THYMELEAF] * Dialect [1 of 2]: org.thymeleaf.spring4.dialect.SpringStandardDialect
+[THYMELEAF]     * Prefix: "th"
+[THYMELEAF] * Dialect [2 of 2]: nz.net.ultraq.thymeleaf.LayoutDialect
+[THYMELEAF]     * Prefix: "layout"
+[THYMELEAF] TEMPLATE ENGINE CONFIGURED OK
+2018-03-20 at 11:08:16 CST INFO  org.thymeleaf.TemplateEngine 838 initialize - [THYMELEAF] TEMPLATE ENGINE INITIALIZED
+2018-03-20 at 13:10:47 CST INFO  org.springframework.boot.StartupInfoLogger 48 logStarting - Starting Application on DESKTOP-37B0J72 with PID 7632 (C:\Users\BA\Downloads\bootBootstrap\bootBootstrap\target\classes started by BA in C:\JavaProject\springbootMybatis)
+2018-03-20 at 13:10:47 CST INFO  org.springframework.boot.SpringApplication 662 logStartupProfileInfo - No active profile set, falling back to default profiles: default
+2018-03-20 at 13:10:47 CST INFO  org.hibernate.validator.internal.util.Version 30 <clinit> - HV000001: Hibernate Validator 5.2.5.Final
+2018-03-20 at 13:10:48 CST INFO  org.springframework.context.support.AbstractApplicationContext 583 prepareRefresh - Refreshing org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@611f8234: startup date [Tue Mar 20 13:10:48 CST 2018]; root of context hierarchy
+2018-03-20 at 13:10:55 CST INFO  org.springframework.boot.context.embedded.tomcat.TomcatEmbeddedServletContainer 89 initialize - Tomcat initialized with port(s): 8082 (http)
+2018-03-20 at 13:10:55 CST INFO  org.apache.juli.logging.DirectJDKLog 179 log - Starting service [Tomcat]
+2018-03-20 at 13:10:55 CST INFO  org.apache.juli.logging.DirectJDKLog 179 log - Starting Servlet Engine: Apache Tomcat/8.5.15
+2018-03-20 at 13:10:56 CST INFO  org.apache.juli.logging.DirectJDKLog 179 log - Initializing Spring embedded WebApplicationContext
+2018-03-20 at 13:10:56 CST INFO  org.springframework.boot.context.embedded.EmbeddedWebApplicationContext 276 prepareEmbeddedWebApplicationContext - Root WebApplicationContext: initialization completed in 8149 ms
+2018-03-20 at 13:10:56 CST INFO  org.springframework.boot.web.servlet.ServletRegistrationBean 190 onStartup - Mapping servlet: 'dispatcherServlet' to [/]
+2018-03-20 at 13:10:56 CST INFO  org.springframework.boot.web.servlet.AbstractFilterRegistrationBean 258 configure - Mapping filter: 'characterEncodingFilter' to: [/*]
+2018-03-20 at 13:10:56 CST INFO  org.springframework.boot.web.servlet.AbstractFilterRegistrationBean 258 configure - Mapping filter: 'hiddenHttpMethodFilter' to: [/*]
+2018-03-20 at 13:10:56 CST INFO  org.springframework.boot.web.servlet.AbstractFilterRegistrationBean 258 configure - Mapping filter: 'httpPutFormContentFilter' to: [/*]
+2018-03-20 at 13:10:56 CST INFO  org.springframework.boot.web.servlet.AbstractFilterRegistrationBean 258 configure - Mapping filter: 'requestContextFilter' to: [/*]
+2018-03-20 at 13:10:57 CST INFO  org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter 534 initControllerAdviceCache - Looking for @ControllerAdvice: org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@611f8234: startup date [Tue Mar 20 13:10:48 CST 2018]; root of context hierarchy
+2018-03-20 at 13:10:57 CST INFO  org.springframework.web.servlet.handler.AbstractHandlerMethodMapping$MappingRegistry 543 register - Mapped "{[/]}" onto public java.lang.String com.zanghan.application.controller.LoginController.login()
+2018-03-20 at 13:10:57 CST INFO  org.springframework.web.servlet.handler.AbstractHandlerMethodMapping$MappingRegistry 543 register - Mapped "{[/error]}" onto public org.springframework.http.ResponseEntity<java.util.Map<java.lang.String, java.lang.Object>> org.springframework.boot.autoconfigure.web.BasicErrorController.error(javax.servlet.http.HttpServletRequest)
+2018-03-20 at 13:10:57 CST INFO  org.springframework.web.servlet.handler.AbstractHandlerMethodMapping$MappingRegistry 543 register - Mapped "{[/error],produces=[text/html]}" onto public org.springframework.web.servlet.ModelAndView org.springframework.boot.autoconfigure.web.BasicErrorController.errorHtml(javax.servlet.http.HttpServletRequest,javax.servlet.http.HttpServletResponse)
+2018-03-20 at 13:10:57 CST INFO  org.springframework.web.servlet.handler.AbstractUrlHandlerMapping 362 registerHandler - Mapped URL path [/webjars/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2018-03-20 at 13:10:57 CST INFO  org.springframework.web.servlet.handler.AbstractUrlHandlerMapping 362 registerHandler - Mapped URL path [/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2018-03-20 at 13:10:58 CST INFO  org.springframework.web.servlet.handler.AbstractUrlHandlerMapping 362 registerHandler - Mapped URL path [/**/favicon.ico] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2018-03-20 at 13:10:59 CST INFO  org.springframework.jmx.export.MBeanExporter 431 afterSingletonsInstantiated - Registering beans for JMX exposure on startup
+2018-03-20 at 13:10:59 CST INFO  org.apache.juli.logging.DirectJDKLog 179 log - Initializing ProtocolHandler ["http-nio-8082"]
+2018-03-20 at 13:10:59 CST INFO  org.apache.juli.logging.DirectJDKLog 179 log - Starting ProtocolHandler ["http-nio-8082"]
+2018-03-20 at 13:10:59 CST INFO  org.apache.juli.logging.DirectJDKLog 179 log - Using a shared selector for servlet write/read
+2018-03-20 at 13:10:59 CST INFO  org.springframework.boot.context.embedded.tomcat.TomcatEmbeddedServletContainer 198 start - Tomcat started on port(s): 8082 (http)
+2018-03-20 at 13:10:59 CST INFO  org.springframework.boot.StartupInfoLogger 57 logStarted - Started Application in 15.402 seconds (JVM running for 19.297)
+2018-03-20 at 13:12:59 CST INFO  org.apache.juli.logging.DirectJDKLog 179 log - Initializing Spring FrameworkServlet 'dispatcherServlet'
+2018-03-20 at 13:12:59 CST INFO  org.springframework.web.servlet.FrameworkServlet 489 initServletBean - FrameworkServlet 'dispatcherServlet': initialization started
+2018-03-20 at 13:12:59 CST INFO  org.springframework.web.servlet.FrameworkServlet 508 initServletBean - FrameworkServlet 'dispatcherServlet': initialization completed in 32 ms
+2018-03-20 at 13:12:59 CST INFO  org.thymeleaf.TemplateEngine 825 initialize - [THYMELEAF] INITIALIZING TEMPLATE ENGINE
+2018-03-20 at 13:12:59 CST INFO  org.thymeleaf.templateresolver.AbstractTemplateResolver 99 initialize - [THYMELEAF] INITIALIZING TEMPLATE RESOLVER: org.thymeleaf.spring4.templateresolver.SpringResourceTemplateResolver
+2018-03-20 at 13:12:59 CST INFO  org.thymeleaf.templateresolver.AbstractTemplateResolver 110 initialize - [THYMELEAF] TEMPLATE RESOLVER INITIALIZED OK
+2018-03-20 at 13:12:59 CST INFO  org.thymeleaf.messageresolver.AbstractMessageResolver 72 initialize - [THYMELEAF] INITIALIZING MESSAGE RESOLVER: org.thymeleaf.spring4.messageresolver.SpringMessageResolver
+2018-03-20 at 13:12:59 CST INFO  org.thymeleaf.messageresolver.AbstractMessageResolver 78 initialize - [THYMELEAF] MESSAGE RESOLVER INITIALIZED OK
+2018-03-20 at 13:12:59 CST INFO  org.thymeleaf.ConfigurationPrinterHelper 123 printConfiguration - [THYMELEAF] TEMPLATE ENGINE CONFIGURATION:
+[THYMELEAF] * Cache Factory implementation: org.thymeleaf.cache.StandardCacheManager
+[THYMELEAF] * Template modes:
+[THYMELEAF]     * XML
+[THYMELEAF]     * VALIDXHTML
+[THYMELEAF]     * HTML5
+[THYMELEAF]     * XHTML
+[THYMELEAF]     * VALIDXML
+[THYMELEAF]     * LEGACYHTML5
+[THYMELEAF] * Template resolvers (in order):
+[THYMELEAF]     * org.thymeleaf.spring4.templateresolver.SpringResourceTemplateResolver
+[THYMELEAF] * Message resolvers (in order):
+[THYMELEAF]     * org.thymeleaf.spring4.messageresolver.SpringMessageResolver
+[THYMELEAF] * Dialect [1 of 2]: org.thymeleaf.spring4.dialect.SpringStandardDialect
+[THYMELEAF]     * Prefix: "th"
+[THYMELEAF] * Dialect [2 of 2]: nz.net.ultraq.thymeleaf.LayoutDialect
+[THYMELEAF]     * Prefix: "layout"
+[THYMELEAF] TEMPLATE ENGINE CONFIGURED OK
+2018-03-20 at 13:12:59 CST INFO  org.thymeleaf.TemplateEngine 838 initialize - [THYMELEAF] TEMPLATE ENGINE INITIALIZED

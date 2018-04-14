@@ -1,0 +1,50 @@
+server:
+  port: 8081
+
+spring:
+    http:
+       charset: UTF-8
+       enable: true
+    #mvc:
+      #view:
+        #prefix: classpath:/templates
+        #prefix: /WEB-INF/jsp/
+        #suffix: .jsp
+
+    datasource:
+      driver-class-name: com.mysql.jdbc.Driver
+      url: jdbc:mysql://127.0.0.1:3306/mysql
+      username: root
+      password: root
+      dbcp2:
+        initial-size: 5
+        min-idle: 5
+        pool-prepared-statements: true
+      tomcat:
+        max-active: 20
+        max-wait: 60000
+        time-between-eviction-runs-millis: 60000
+        min-evictable-idle-time-millis: 300000
+        validation-query: SELECT 1 FROM DUAL
+        test-while-idle: true
+        test-on-borrow: false
+        test-on-return: false
+        connection-properties: druid.stat.mergeSql=true;druid.stat.slowSqlMillis=5000
+    thymeleaf:
+      cache: false
+
+
+
+mybatis:
+  mapper-locations: classpath:mapping/*.xml
+  type-aliases-package: com.winter.model
+
+#pagehelper分页插件
+pagehelper:
+    helperDialect: mysql
+    reasonable: true
+    supportMethodsArguments: true
+    params: count=countSql
+
+
+

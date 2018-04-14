@@ -1,0 +1,31 @@
+﻿<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Frameset//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-frameset.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<title>网站后台管理系统HTML模板--模板之家 www.cssmoban.com</title>
+  <script typet="text/javascript" src="http://lib.sinaapp.com/js/jquery/1.9.1/jquery-1.9.1.min.js"></script>
+</head>
+<!--<frameset rows="88,*" cols="*" frameborder="no" border="0" framespacing="0">
+  <frame src="127.0.0.1:8081/top" name="topFrame" scrolling="No" noresize="noresize" id="topFrame" title="topFrame" />
+  <frameset cols="187,*" frameborder="no" border="0" framespacing="0">
+    <frame src="127.0.0.1:8081/left" name="leftFrame" scrolling="No" noresize="noresize" id="leftFrame" title="leftFrame" />
+   <frame src="127.0.0.1:8081/right" name="rightFrame" id="rightFrame" title="rightFrame" />
+  </frameset>
+</frameset>-->
+  <body>
+  <div class="iframe">T4444</div>
+
+  <script type="application/javascript">
+
+  var url = window.location.protocol + '//' + window.location.host+"/top";
+  var content ='<div class="divframe" style="height:'+1000+ 'px;">'
+          + '		<iframe class="divframe" id="iframe-' + 1 + '" width="100%" height="' + (200) + 'px" style="border:0px;" src="' + url + '"></iframe>'
+          + '</div>';
+ $(function () {
+
+   $('.iframe').append(content);
+ });
+  </script>
+</body>
+</html>
+
